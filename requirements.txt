@@ -1,0 +1,4 @@
+streamlit
+python-pptx
+openai
+azure-storage-blob
