@@ -14,7 +14,7 @@ openai.api_base = "https://hsbcoai.openai.azure.com/"
 openai.api_key = ""
 
 # Azure Blob Storage connection string
-azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=demodocstoragetranslator;AccountKey=cr4tK/oThygMWmBm3YvfuSxIwj8aMiMPiF+jz27xwpQTPDJxmi8LZe7UxrqsgXcd8Ggtnl/6KrdF+AStMqVAEQ==;EndpointSuffix=core.windows.net"
+azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=demodocstoragetranslator;AccountKey="";EndpointSuffix=core.windows.net"
 container_name = "ppt"  # Replace with your container name
 
 def generate_content(prompt):
@@ -171,6 +171,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
