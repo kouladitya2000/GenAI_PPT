@@ -11,7 +11,7 @@ from io import BytesIO
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
 openai.api_base = "https://hsbcoai.openai.azure.com/"
-openai.api_key = "324de9c5fb0444278d98f92dbee4ee2a"
+openai.api_key = ""
 
 # Azure Blob Storage connection string
 azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=demodocstoragetranslator;AccountKey=cr4tK/oThygMWmBm3YvfuSxIwj8aMiMPiF+jz27xwpQTPDJxmi8LZe7UxrqsgXcd8Ggtnl/6KrdF+AStMqVAEQ==;EndpointSuffix=core.windows.net"
@@ -171,6 +171,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
